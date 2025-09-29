@@ -1,5 +1,5 @@
 # Transformice resources proxy
-This is a proxy for downloading any assets from `transformice.com/*`. 
+This is a proxy for downloading any assets from `transformice.com/*` and bypassing CORS.
 Used for [extremq/tfm-browser](https://github.com/extremq/tfm-browser) so you don't need to run a server.
 
 Use `Transformice-Url: /example-file.ext` as a header to get a resource. Example:
@@ -9,4 +9,5 @@ curl -H "Transformice-Url: /img/i1.jpg"  https://tfm-resource-proxy.vercel.app/a
 ```
 
 Made for easy deployment to vercel.
+
 
